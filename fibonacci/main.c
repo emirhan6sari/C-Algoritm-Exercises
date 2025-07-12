@@ -10,8 +10,8 @@ void fibonacci(int a) {
     }
 
     printf("Fibonacci Serisi:\n");
-    printf("%d \t", temp); // Ýlk Fibonacci sayýsý: 0
-    if (a > 1) printf("%d \t", sayi); // Ýkinci Fibonacci sayýsý: 1
+    printf("%d \t", temp); // ilk Fibonacci sayisi: 0
+    if (a > 1) printf("%d \t", sayi); // ikinci Fibonacci sayisi: 1
 
     for (int i = 2; i < a; i++) {
         toplam = sayi + temp;
